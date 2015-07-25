@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99057CEA197CAA26000CC92F /* HJYProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99057CE8197CAA26000CC92F /* HJYProgressViewController.m */; };
+		99057CEB197CAA26000CC92F /* HJYProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99057CE9197CAA26000CC92F /* HJYProgressViewController.xib */; };
+		991AC866197A1F3000C13FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991AC865197A1F3000C13FAD /* Foundation.framework */; };
+		991AC868197A1F3000C13FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991AC867197A1F3000C13FAD /* CoreGraphics.framework */; };
+		991AC86A197A1F3000C13FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991AC869197A1F3000C13FAD /* UIKit.framework */; };
+		991AC870197A1F3000C13FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 991AC86E197A1F3000C13FAD /* InfoPlist.strings */; };
+		991AC872197A1F3000C13FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 991AC871197A1F3000C13FAD /* main.m */; };
+		991AC876197A1F3000C13FAD /* HJYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991AC875197A1F3000C13FAD /* HJYAppDelegate.m */; };
+		991AC878197A1F3000C13FAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991AC877197A1F3000C13FAD /* Images.xcassets */; };
+		991AC87F197A1F3000C13FAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991AC87E197A1F3000C13FAD /* XCTest.framework */; };
+		991AC880197A1F3000C13FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991AC865197A1F3000C13FAD /* Foundation.framework */; };
+		991AC881197A1F3000C13FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991AC869197A1F3000C13FAD /* UIKit.framework */; };
+		991AC889197A1F3000C13FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 991AC887197A1F3000C13FAD /* InfoPlist.strings */; };
+		991AC88B197A1F3000C13FAD /* FindOADVersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 991AC88A197A1F3000C13FAD /* FindOADVersionTests.m */; };
+		991AC896197A202200C13FAD /* HJYBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 991AC895197A202200C13FAD /* HJYBLE.m */; };
+		991AC89A197A203500C13FAD /* HJYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991AC898197A203500C13FAD /* HJYMainViewController.m */; };
+		991AC89B197A203500C13FAD /* HJYMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991AC899197A203500C13FAD /* HJYMainViewController.xib */; };
+		991AC89D197A20E900C13FAD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991AC89C197A20E900C13FAD /* CoreBluetooth.framework */; };
+		992F4A73199EFB990058B386 /* Athermometer.bin in Resources */ = {isa = PBXBuildFile; fileRef = 992F4A6F199EFB990058B386 /* Athermometer.bin */; };
+		992F4A74199EFB990058B386 /* Bthermometer.bin in Resources */ = {isa = PBXBuildFile; fileRef = 992F4A70199EFB990058B386 /* Bthermometer.bin */; };
+		992F4A75199EFB990058B386 /* SensorTagImgA.bin in Resources */ = {isa = PBXBuildFile; fileRef = 992F4A71199EFB990058B386 /* SensorTagImgA.bin */; };
+		992F4A76199EFB990058B386 /* SensorTagImgB.bin in Resources */ = {isa = PBXBuildFile; fileRef = 992F4A72199EFB990058B386 /* SensorTagImgB.bin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991AC882197A1F3000C13FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991AC85A197A1F3000C13FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991AC861197A1F3000C13FAD;
+			remoteInfo = FindOADVersion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99057CE7197CAA26000CC92F /* HJYProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYProgressViewController.h; sourceTree = "<group>"; };
+		99057CE8197CAA26000CC92F /* HJYProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYProgressViewController.m; sourceTree = "<group>"; };
+		99057CE9197CAA26000CC92F /* HJYProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJYProgressViewController.xib; sourceTree = "<group>"; };
+		991AC862197A1F3000C13FAD /* FindOADVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindOADVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		991AC865197A1F3000C13FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		991AC867197A1F3000C13FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		991AC869197A1F3000C13FAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		991AC86D197A1F3000C13FAD /* FindOADVersion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindOADVersion-Info.plist"; sourceTree = "<group>"; };
+		991AC86F197A1F3000C13FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		991AC871197A1F3000C13FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		991AC873197A1F3000C13FAD /* FindOADVersion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindOADVersion-Prefix.pch"; sourceTree = "<group>"; };
+		991AC874197A1F3000C13FAD /* HJYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJYAppDelegate.h; sourceTree = "<group>"; };
+		991AC875197A1F3000C13FAD /* HJYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJYAppDelegate.m; sourceTree = "<group>"; };
+		991AC877197A1F3000C13FAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		991AC87D197A1F3000C13FAD /* FindOADVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindOADVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991AC87E197A1F3000C13FAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		991AC886197A1F3000C13FAD /* FindOADVersionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindOADVersionTests-Info.plist"; sourceTree = "<group>"; };
+		991AC888197A1F3000C13FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		991AC88A197A1F3000C13FAD /* FindOADVersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindOADVersionTests.m; sourceTree = "<group>"; };
+		991AC894197A202200C13FAD /* HJYBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYBLE.h; sourceTree = "<group>"; };
+		991AC895197A202200C13FAD /* HJYBLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYBLE.m; sourceTree = "<group>"; };
+		991AC897197A203500C13FAD /* HJYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJYMainViewController.h; sourceTree = "<group>"; };
+		991AC898197A203500C13FAD /* HJYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJYMainViewController.m; sourceTree = "<group>"; };
+		991AC899197A203500C13FAD /* HJYMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJYMainViewController.xib; sourceTree = "<group>"; };
+		991AC89C197A20E900C13FAD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		991AC8A7197A4EE100C13FAD /* oad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oad.h; sourceTree = "<group>"; };
+		992F4A6F199EFB990058B386 /* Athermometer.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Athermometer.bin; sourceTree = "<group>"; };
+		992F4A70199EFB990058B386 /* Bthermometer.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Bthermometer.bin; sourceTree = "<group>"; };
+		992F4A71199EFB990058B386 /* SensorTagImgA.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SensorTagImgA.bin; sourceTree = "<group>"; };
+		992F4A72199EFB990058B386 /* SensorTagImgB.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = SensorTagImgB.bin; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991AC85F197A1F3000C13FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991AC89D197A20E900C13FAD /* CoreBluetooth.framework in Frameworks */,
+				991AC868197A1F3000C13FAD /* CoreGraphics.framework in Frameworks */,
+				991AC86A197A1F3000C13FAD /* UIKit.framework in Frameworks */,
+				991AC866197A1F3000C13FAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991AC87A197A1F3000C13FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991AC87F197A1F3000C13FAD /* XCTest.framework in Frameworks */,
+				991AC881197A1F3000C13FAD /* UIKit.framework in Frameworks */,
+				991AC880197A1F3000C13FAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991AC859197A1F3000C13FAD = {
+			isa = PBXGroup;
+			children = (
+				991AC86B197A1F3000C13FAD /* FindOADVersion */,
+				991AC884197A1F3000C13FAD /* FindOADVersionTests */,
+				991AC864197A1F3000C13FAD /* Frameworks */,
+				991AC863197A1F3000C13FAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991AC863197A1F3000C13FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991AC862197A1F3000C13FAD /* FindOADVersion.app */,
+				991AC87D197A1F3000C13FAD /* FindOADVersionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991AC864197A1F3000C13FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				991AC89C197A20E900C13FAD /* CoreBluetooth.framework */,
+				991AC865197A1F3000C13FAD /* Foundation.framework */,
+				991AC867197A1F3000C13FAD /* CoreGraphics.framework */,
+				991AC869197A1F3000C13FAD /* UIKit.framework */,
+				991AC87E197A1F3000C13FAD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		991AC86B197A1F3000C13FAD /* FindOADVersion */ = {
+			isa = PBXGroup;
+			children = (
+				991AC874197A1F3000C13FAD /* HJYAppDelegate.h */,
+				991AC875197A1F3000C13FAD /* HJYAppDelegate.m */,
+				991AC897197A203500C13FAD /* HJYMainViewController.h */,
+				991AC898197A203500C13FAD /* HJYMainViewController.m */,
+				991AC899197A203500C13FAD /* HJYMainViewController.xib */,
+				991AC894197A202200C13FAD /* HJYBLE.h */,
+				991AC895197A202200C13FAD /* HJYBLE.m */,
+				99057CE7197CAA26000CC92F /* HJYProgressViewController.h */,
+				99057CE8197CAA26000CC92F /* HJYProgressViewController.m */,
+				99057CE9197CAA26000CC92F /* HJYProgressViewController.xib */,
+				991AC8A7197A4EE100C13FAD /* oad.h */,
+				991AC89E197A4D1100C13FAD /* firmware */,
+				991AC877197A1F3000C13FAD /* Images.xcassets */,
+				991AC86C197A1F3000C13FAD /* Supporting Files */,
+			);
+			path = FindOADVersion;
+			sourceTree = "<group>";
+		};
+		991AC86C197A1F3000C13FAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				991AC86D197A1F3000C13FAD /* FindOADVersion-Info.plist */,
+				991AC86E197A1F3000C13FAD /* InfoPlist.strings */,
+				991AC871197A1F3000C13FAD /* main.m */,
+				991AC873197A1F3000C13FAD /* FindOADVersion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991AC884197A1F3000C13FAD /* FindOADVersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				991AC88A197A1F3000C13FAD /* FindOADVersionTests.m */,
+				991AC885197A1F3000C13FAD /* Supporting Files */,
+			);
+			path = FindOADVersionTests;
+			sourceTree = "<group>";
+		};
+		991AC885197A1F3000C13FAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				991AC886197A1F3000C13FAD /* FindOADVersionTests-Info.plist */,
+				991AC887197A1F3000C13FAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991AC89E197A4D1100C13FAD /* firmware */ = {
+			isa = PBXGroup;
+			children = (
+				992F4A6F199EFB990058B386 /* Athermometer.bin */,
+				992F4A70199EFB990058B386 /* Bthermometer.bin */,
+				992F4A71199EFB990058B386 /* SensorTagImgA.bin */,
+				992F4A72199EFB990058B386 /* SensorTagImgB.bin */,
+			);
+			path = firmware;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991AC861197A1F3000C13FAD /* FindOADVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991AC88E197A1F3000C13FAD /* Build configuration list for PBXNativeTarget "FindOADVersion" */;
+			buildPhases = (
+				991AC85E197A1F3000C13FAD /* Sources */,
+				991AC85F197A1F3000C13FAD /* Frameworks */,
+				991AC860197A1F3000C13FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindOADVersion;
+			productName = FindOADVersion;
+			productReference = 991AC862197A1F3000C13FAD /* FindOADVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991AC87C197A1F3000C13FAD /* FindOADVersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991AC891197A1F3000C13FAD /* Build configuration list for PBXNativeTarget "FindOADVersionTests" */;
+			buildPhases = (
+				991AC879197A1F3000C13FAD /* Sources */,
+				991AC87A197A1F3000C13FAD /* Frameworks */,
+				991AC87B197A1F3000C13FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991AC883197A1F3000C13FAD /* PBXTargetDependency */,
+			);
+			name = FindOADVersionTests;
+			productName = FindOADVersionTests;
+			productReference = 991AC87D197A1F3000C13FAD /* FindOADVersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991AC85A197A1F3000C13FAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HJY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JinyouHu;
+				TargetAttributes = {
+					991AC861197A1F3000C13FAD = {
+						DevelopmentTeam = 2NMHYQU8M9;
+					};
+					991AC87C197A1F3000C13FAD = {
+						TestTargetID = 991AC861197A1F3000C13FAD;
+					};
+				};
+			};
+			buildConfigurationList = 991AC85D197A1F3000C13FAD /* Build configuration list for PBXProject "FindOADVersion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 991AC859197A1F3000C13FAD;
+			productRefGroup = 991AC863197A1F3000C13FAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991AC861197A1F3000C13FAD /* FindOADVersion */,
+				991AC87C197A1F3000C13FAD /* FindOADVersionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991AC860197A1F3000C13FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992F4A75199EFB990058B386 /* SensorTagImgA.bin in Resources */,
+				991AC870197A1F3000C13FAD /* InfoPlist.strings in Resources */,
+				992F4A74199EFB990058B386 /* Bthermometer.bin in Resources */,
+				991AC89B197A203500C13FAD /* HJYMainViewController.xib in Resources */,
+				991AC878197A1F3000C13FAD /* Images.xcassets in Resources */,
+				992F4A76199EFB990058B386 /* SensorTagImgB.bin in Resources */,
+				992F4A73199EFB990058B386 /* Athermometer.bin in Resources */,
+				99057CEB197CAA26000CC92F /* HJYProgressViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991AC87B197A1F3000C13FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991AC889197A1F3000C13FAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991AC85E197A1F3000C13FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991AC896197A202200C13FAD /* HJYBLE.m in Sources */,
+				991AC89A197A203500C13FAD /* HJYMainViewController.m in Sources */,
+				99057CEA197CAA26000CC92F /* HJYProgressViewController.m in Sources */,
+				991AC876197A1F3000C13FAD /* HJYAppDelegate.m in Sources */,
+				991AC872197A1F3000C13FAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991AC879197A1F3000C13FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991AC88B197A1F3000C13FAD /* FindOADVersionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991AC883197A1F3000C13FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991AC861197A1F3000C13FAD /* FindOADVersion */;
+			targetProxy = 991AC882197A1F3000C13FAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		991AC86E197A1F3000C13FAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991AC86F197A1F3000C13FAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		991AC887197A1F3000C13FAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991AC888197A1F3000C13FAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		991AC88C197A1F3000C13FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		991AC88D197A1F3000C13FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991AC88F197A1F3000C13FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yin wang (M3J2ZFC9TQ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindOADVersion/FindOADVersion-Prefix.pch";
+				INFOPLIST_FILE = "FindOADVersion/FindOADVersion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7036cbe-662a-4022-bcc1-ed2c4de333da";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		991AC890197A1F3000C13FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yin wang (M3J2ZFC9TQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yin wang (M3J2ZFC9TQ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindOADVersion/FindOADVersion-Prefix.pch";
+				INFOPLIST_FILE = "FindOADVersion/FindOADVersion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b7036cbe-662a-4022-bcc1-ed2c4de333da";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		991AC892197A1F3000C13FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FindOADVersion.app/FindOADVersion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindOADVersion/FindOADVersion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FindOADVersionTests/FindOADVersionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		991AC893197A1F3000C13FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FindOADVersion.app/FindOADVersion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindOADVersion/FindOADVersion-Prefix.pch";
+				INFOPLIST_FILE = "FindOADVersionTests/FindOADVersionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991AC85D197A1F3000C13FAD /* Build configuration list for PBXProject "FindOADVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991AC88C197A1F3000C13FAD /* Debug */,
+				991AC88D197A1F3000C13FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991AC88E197A1F3000C13FAD /* Build configuration list for PBXNativeTarget "FindOADVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991AC88F197A1F3000C13FAD /* Debug */,
+				991AC890197A1F3000C13FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991AC891197A1F3000C13FAD /* Build configuration list for PBXNativeTarget "FindOADVersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991AC892197A1F3000C13FAD /* Debug */,
+				991AC893197A1F3000C13FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991AC85A197A1F3000C13FAD /* Project object */;
+}
